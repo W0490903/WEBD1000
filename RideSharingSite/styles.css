@@ -1,0 +1,10 @@
+header.full {
+    color: white;
+    background: linear-gradient(to right, #004477, rgb(82, 114, 181));
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
