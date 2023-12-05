@@ -1,0 +1,111 @@
+<!--
+Author: Zachary Mason
+Student ID: W0490903
+Course: WEBD1000
+Date: 2023-12-05
+Project: HTML and CSS Skills Development
+Repository: https://github.com/W0490903/WEBD1000
+Programming Language: HTML5
+Version: 1.0
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HTML_CSS_Skills.css">
+    <title>HTML and CSS Skills Development</title>
+    <style>
+        div.internal {
+            border: 6px solid yellow;
+            padding: 6px;
+            background-color: purple;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>HTML/CSS Skills Development</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="#E1">Exercise 1</a></li>
+                <li><a href="#E2">Exercise 2</a></li>
+                <li><a href="#E3">Exercise 3</a></li>
+                <li><a href="#E4">Exercise 4</a></li>
+                <li><a href="#E5">Exercise 5</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Exercise 1: Inline Styles -->
+        <section>
+            <div style="color:green; font-size: 32px">
+                This is sample text in green and 32 font size using inline CSS!
+            </div>
+        </section>
+        <!-- Exercise 2: Internal Styles -->
+        <section>
+            <div class="internal">
+                This is sample text in purple background color and with padding using internal CSS!
+            </div>
+        </section>
+        <!-- Exercise 3: External Styles / Exercise 4: Selectors and Descendants -->
+        <section>
+            <div id="external">
+                This is <span>sample</span> text with a red border and a margin using external CSS!
+            </div>
+        </section>
+        <!-- Exercise 5: Box Model -->
+        <section>
+            <div id="box">
+                This is text inside a box!
+            </div>
+        </section>
+        <!-- Exercise 6: Flexbox -->
+        <section>
+            <div class="flexbox">
+                <div id="div1">
+                    Sample 1
+                </div>
+                <div id="div2">
+                    Sample 2
+                </div>
+                <div id="div3">
+                    Sample 3
+                </div>
+            </div>
+        </section>
+        <!-- Exercise 7: Positioning -->
+        <section>
+            <div>
+                <div id="absolute">
+                    Absolute
+                </div>
+                <div id="relative">
+                    Relative
+                </div>
+            </div>
+        </section>
+        <!-- Exercise 8: Transitions -->
+        <div>
+            <button type="button">
+                Button 1
+            </button>
+        </div>
+        <!-- Exercise 10: CSS Variables -->
+        <section>
+            <div id="var">
+                This text is styled using var()!
+            </div>
+        </section>
+        
+    </main>
+<footer>
+    © Zachary Mason 2023
+</footer>
+</body>
